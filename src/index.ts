@@ -7,11 +7,11 @@ import * as ServerInfo from "./modules/ServerInfo";
 import * as Statistics from "./modules/Statistics";
 import * as CommunityServers from "./modules/CommunityServers";
 import * as Welcomer from "./modules/Welcomer";
-import * as Banner from "./modules/Banner";
+// import * as Banner from "./modules/Banner";
 import * as Staff from "./modules/Staff";
-import path from "path";
-import http from "http";
-import fs from "fs";
+// import path from "path";
+// import http from "http";
+// import fs from "fs";
 
 const main = async () => {
     console.log(`Trying to connect to ${process.env.TS3_HOST}:${process.env.TS3_PORT}`);
@@ -25,7 +25,7 @@ const main = async () => {
         ServerInfo.updateServerInfo();
         CommunityServers.updateCommunityServers();
         Welcomer.registerWelcomer();
-        Banner.Generate();
+        // Banner.Generate();
         Staff.Update();
 
         RankConnection.connect(error => {
@@ -39,18 +39,18 @@ const main = async () => {
             Statistics.updateServerStatistics();
         });
 
-        http.createServer((req, res) => {
-            if (req.method === "GET" && req.url === "/banner") {
-                res.writeHead(200, { 'Content-Type': 'image/png' });
-                fs.createReadStream(path.join(__dirname + '/resources/banner.png')).pipe(res);
-            } else {
-                res.setHeader('Content-Type', 'text/plain');
-                res.statusCode = 404;
-                res.end("Not found!");
-            }
-        }).listen(PORT, () => {
-            console.log(`HTTP Listening to port ${PORT}.`);
-        });
+        // http.createServer((req, res) => {
+        //     if (req.method === "GET" && req.url === "/banner") {
+        //         res.writeHead(200, { 'Content-Type': 'image/png' });
+        //         fs.createReadStream(path.join(__dirname + '/resources/banner.png')).pipe(res);
+        //     } else {
+        //         res.setHeader('Content-Type', 'text/plain');
+        //         res.statusCode = 404;
+        //         res.end("Not found!");
+        //     }
+        // }).listen(PORT, () => {
+        //     console.log(`HTTP Listening to port ${PORT}.`);
+        // });
 
         // const channelList = await TeamSpeakConnection.channelList();
 
