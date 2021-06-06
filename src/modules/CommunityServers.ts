@@ -77,6 +77,40 @@ Players: [COLOR=#990000][B]${onlinePlayers}/${maxPlayers}[/B][/COLOR]
     }
 }
 
+async function updateCSGOArena() {
+    const channel = await TeamSpeakConnection.getChannelById(process.env.CSGO_ARENA_CHANNEL as string);
+
+    if (channel) {
+        gamedig.query({
+            type: 'csgo',
+            host: '51.195.61.92',
+            port: 27015
+        }).then((data) => {
+            const rawData: any = data.raw;
+
+            if (!rawData) {
+                console.error('[Ping] Cannot ping CS:GO Arena server.');
+                return;
+            }
+
+            const onlinePlayers = rawData.numplayers;
+            const maxPlayers = data.maxplayers;
+
+            channel.edit({
+                channelName: `[cspacer]CSGO • Arena 1v1 • ${onlinePlayers}/${maxPlayers}`,
+                channelDescription: `Address: [COLOR=#990000][B]csgo.sa-rpg.com:27015[/B][/COLOR]
+GameMode: [COLOR=#990000][B]Multi Arena 1v1[/B][/COLOR]
+Map: [COLOR=#990000][B]${data.map}[/B][/COLOR]
+Players: [COLOR=#990000][B]${onlinePlayers}/${maxPlayers}[/B][/COLOR]
+[center][B][size=8][hr]» [COLOR=#990000]Skill Arena[/COLOR] Public TeamSpeak «
+» Contact: [COLOR=#990000]public@sa-rpg.com[/COLOR] «[hr][/size][/B][/center]`
+            });
+        }).catch((error) => {
+            console.log("Cannot query CS:GO Arena server.");
+        });
+    }
+}
+
 async function updateSAMPServer() {
     const channel = await TeamSpeakConnection.getChannelById(process.env.SAMP_SERVER_CHANNEL as string);
 
@@ -118,6 +152,7 @@ export const updateCommunityServers = async () => {
     updateCSPublic();
     updateMCSurvival();
     updateSAMPServer();
+    updateCSGOArena();
 
     setTimeout(() => {
         updateCommunityServers();
