@@ -9,8 +9,8 @@ async function updateCSPublic() {
     if (channel) {
         gamedig.query({
             type: 'cs16',
-            host: '51.195.123.185',
-            port: 27015
+            host: '51.195.61.92',
+            port: 27020
         }).then((data) => {
             const rawData: any = data.raw;
 
