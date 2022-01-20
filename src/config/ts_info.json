@@ -1,0 +1,7 @@
+{
+    "avg_ping_ch": 3544,
+    "avg_packet_loss_ch": 3543,
+    "online_clients_ch": 3542,
+    "server_uptime_ch": 3541,
+    "query_interval": 180
+}

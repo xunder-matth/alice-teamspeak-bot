@@ -1,0 +1,6 @@
+.env
+node_modules
+pm2_error.log
+pm2_out.log
+test.ts
+logs

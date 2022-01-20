@@ -1,0 +1,14 @@
+{
+    "message": [
+        "[URL=client://%clid%/%uuid%~%encodednickname%][color=#990000][b]%nickname%[/b][/color][/URL] ceka Supportera u kanalu [color=#990000][b]%channel%[/b][/color]."
+    ],
+    "supporter_groups": [
+        1086
+    ],
+    "ignored_groups": [
+        1064, 1160, 1115, 1116, 1089, 1088
+    ],
+    "channels": [
+        3569, 3570
+    ]
+}
