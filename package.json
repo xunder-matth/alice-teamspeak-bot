@@ -10,9 +10,13 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@types/gm": "^1.18.11",
+    "@types/mysql": "^2.15.20",
     "dotenv": "^10.0.0",
     "gamedig": "^3.0.7",
+    "gm": "^1.23.1",
     "humanize-duration": "^3.27.0",
+    "mysql": "^2.18.1",
     "ts3-nodejs-library": "^3.3.0"
   },
   "devDependencies": {
