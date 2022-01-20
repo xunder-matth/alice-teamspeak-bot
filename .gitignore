@@ -4,3 +4,4 @@ pm2_error.log
 pm2_out.log
 test.ts
 logs
+dist
