@@ -95,10 +95,10 @@
     "@types/node" "*"
     "@types/responselike" "*"
 
-"@types/gamedig@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@types/gamedig/-/gamedig-3.0.1.tgz#0e1785f8882467e3b4d62acffe817bf42eb63f56"
-  integrity sha512-ZgYlkbpv3vxHjqUcM61AXa1K/k4Fup+iZq2tU+97iqylUeHYhVejQHkW0r0pWzU7QFEDKa6LZfjNwX9XagPGsg==
+"@types/gamedig@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@types/gamedig/-/gamedig-3.0.2.tgz#e29b7a9ad6de22104be23605e3c6cbc2a9d07101"
+  integrity sha512-AwwXlltE9vFCZ2pE9F6oYZjiigqZp1qJUDtVXBlNZJ+gZe1YkR5h0XR2yVC2LOeSKTmN1alEvCk4nI+PkdgF7w==
 
 "@types/gm@^1.18.11":
   version "1.18.11"
