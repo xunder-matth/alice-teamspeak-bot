@@ -11,7 +11,7 @@
   "description": "",
   "dependencies": {
     "@types/gm": "^1.18.11",
-    "@types/mysql": "^2.15.20",
+    "@types/mysql": "^2.15.21",
     "dotenv": "^16.0.0",
     "gamedig": "^3.0.7",
     "gm": "^1.23.1",
