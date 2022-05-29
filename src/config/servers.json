@@ -11,39 +11,12 @@
             "channelid": 3555
         },
         {
-            "gametext": "CS 1.6",
-            "gamemode": "Public",
-            "ip": "51.195.124.249",
-            "port": 27015,
-            "type": "cs16",
-            "channelid": 3556
-        },
-        {
-            "gametext": "Minecraft",
-            "gamemode": "Survival",
-            "ip": "51.195.61.92",
-            "port": 25564,
-            "type": "minecraft",
-            "channelid": 3557,
-            "hub_ip": "mc.sa-rpg.com"
-        },
-        {
-            "gametext": "Minecraft",
-            "gamemode": "SkyBlock",
-            "ip": "51.195.61.92",
-            "port": 25568,
-            "type": "minecraft",
-            "channelid": 3558,
-            "hub_ip": "mc.sa-rpg.com"
-        },
-        {
-            "gametext": "Minecraft",
-            "gamemode": "SMP",
-            "ip": "51.195.61.92",
-            "port": 25561,
-            "type": "minecraft",
-            "channelid": 5727,
-            "hub_ip": "mc.sa-rpg.com"
+            "gametext": "MTA:SA",
+            "gamemode": "RolePlay",
+            "ip": "51.195.60.195",
+            "port": 23003,
+            "type": "mtasa",
+            "channelid": 12535
         }
     ]
 }
