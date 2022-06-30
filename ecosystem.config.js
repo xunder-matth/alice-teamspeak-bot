@@ -1,11 +1,11 @@
 module.exports = {
     apps: [
         {
-            name: "alice",
-            script: "ts-node",
-            args: "./index.ts",
-            error_file: "./pm2_error.log",
-            out_file: "./pm2_out.log",
+            name: "alice-teamspeak-bot",
+            script: "./dist/index.js",
+            error_file: "./logs/err.log",
+            out_file: "./logs/out.log",
+            log_date_format: "DD-MM HH:mm:ss.SSS",
             env_production: {
                 NODE_ENV: "production",
             },

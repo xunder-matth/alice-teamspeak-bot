@@ -3,7 +3,8 @@
   "version": "2.0.0",
   "main": "index.js",
   "scripts": {
-    "startDev": "ts-node ./index.ts"
+    "startDev": "ts-node ./index.ts",
+    "start": "pm2 start ecosystem.config.js --env production"
   },
   "keywords": [],
   "author": "",
