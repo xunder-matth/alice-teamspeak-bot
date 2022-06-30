@@ -858,19 +858,19 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-gamedig@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/gamedig/-/gamedig-4.0.2.tgz#c0778d31cf75065ff5717e213a84c06fac34b52e"
-  integrity sha512-sTqdQce36vdFeZ05aPRfVux62nueq4jxRmbbAXPPxUx/srTDWwhDwxLPYLDTu9mT0ItLdJ9rceCE0moDOt51Mg==
+gamedig@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/gamedig/-/gamedig-4.0.4.tgz#fe6b5d22d6e4849072442b69352b7c4173c84ba5"
+  integrity sha512-a/G8TzGtSH6dRzMJVUkGFwWWTEyEtZCRF+kxfepuu4Acesso8ikKQHwaDIRtW0chsPJIdIW3lHvJpE+9NhNeIw==
   dependencies:
     cheerio "^1.0.0-rc.10"
     compressjs "^1.0.2"
     gbxremote "^0.2.1"
-    got "^12.0.1"
+    got "^12.0.3"
     iconv-lite "^0.6.3"
     long "^5.2.0"
-    minimist "^1.2.5"
-    moment "^2.29.1"
+    minimist "^1.2.6"
+    moment "^2.29.3"
     punycode "^2.1.1"
     varint "^6.0.0"
 
@@ -945,7 +945,7 @@ gm@^1.23.1:
     cross-spawn "^4.0.0"
     debug "^3.1.0"
 
-got@^12.0.1:
+got@^12.0.3:
   version "12.1.0"
   resolved "https://registry.yarnpkg.com/got/-/got-12.1.0.tgz#099f3815305c682be4fd6b0ee0726d8e4c6b0af4"
   integrity sha512-hBv2ty9QN2RdbJJMK3hesmSkFTjVIHyIDDbssCKnSmq62edGgImJWD10Eb1k77TiV1bxloxqcFAVK8+9pkhOig==
@@ -1206,15 +1206,15 @@ minimatch@^3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimist@^1.2.5:
+minimist@^1.2.6:
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
   integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
-moment@^2.29.1:
-  version "2.29.2"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.2.tgz#00910c60b20843bcba52d37d58c628b47b1f20e4"
-  integrity sha512-UgzG4rvxYpN15jgCmVJwac49h9ly9NurikMWGPdVxm8GZD6XjkKPxDTjQQ43gtGgnV3X0cAyWDdP2Wexoquifg==
+moment@^2.29.3:
+  version "2.29.3"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.3.tgz#edd47411c322413999f7a5940d526de183c031f3"
+  integrity sha512-c6YRvhEo//6T2Jz/vVtYzqBzwvPT95JBQ+smCytzf7c50oMZRsR/a4w88aD34I+/QVSfnoAnSBFPJHItlOMJVw==
 
 ms@2.1.2:
   version "2.1.2"
