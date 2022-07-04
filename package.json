@@ -11,7 +11,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@types/gm": "^1.18.11",
+    "@types/gm": "^1.18.12",
     "@types/mysql": "^2.15.21",
     "dotenv": "^16.0.1",
     "gamedig": "^4.0.4",
