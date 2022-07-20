@@ -853,10 +853,10 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-gamedig@^4.0.4:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/gamedig/-/gamedig-4.0.4.tgz#fe6b5d22d6e4849072442b69352b7c4173c84ba5"
-  integrity sha512-a/G8TzGtSH6dRzMJVUkGFwWWTEyEtZCRF+kxfepuu4Acesso8ikKQHwaDIRtW0chsPJIdIW3lHvJpE+9NhNeIw==
+gamedig@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/gamedig/-/gamedig-4.0.5.tgz#a6d4bfa29da87ebf265bda3bf92b43ce93a30160"
+  integrity sha512-ROwljeTH8fcF44wi+NfTBdYSmiwtI5f1CJyGUx1DGVDvx7w2bfTxYSwR8FFFLCpNr78mtSwhsBONz1WZ5ucVig==
   dependencies:
     cheerio "^1.0.0-rc.10"
     compressjs "^1.0.2"
@@ -865,7 +865,6 @@ gamedig@^4.0.4:
     iconv-lite "^0.6.3"
     long "^5.2.0"
     minimist "^1.2.6"
-    moment "^2.29.3"
     punycode "^2.1.1"
     varint "^6.0.0"
 
@@ -1205,11 +1204,6 @@ minimist@^1.2.6:
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
   integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
-
-moment@^2.29.3:
-  version "2.29.3"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.3.tgz#edd47411c322413999f7a5940d526de183c031f3"
-  integrity sha512-c6YRvhEo//6T2Jz/vVtYzqBzwvPT95JBQ+smCytzf7c50oMZRsR/a4w88aD34I+/QVSfnoAnSBFPJHItlOMJVw==
 
 ms@2.1.2:
   version "2.1.2"
