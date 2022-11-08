@@ -1,8 +1,8 @@
 {
-    "editor.formatOnSave": true,
-    "prettier.tabWidth": 4,
-    "editor.codeActionsOnSave": {
-        "source.fixAll": true
-    },
-    "editor.formatOnSaveMode": "file"
+	"editor.formatOnSave": true,
+	"prettier.tabWidth": 4,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	},
+	"editor.formatOnSaveMode": "file"
 }
