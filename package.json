@@ -12,7 +12,7 @@
   "description": "",
   "dependencies": {
     "dotenv": "^16.0.1",
-    "gamedig": "^4.0.4",
+    "gamedig": "^4.0.5",
     "gm": "^1.23.1",
     "humanize-duration": "^3.27.2",
     "mysql": "^2.18.1",
