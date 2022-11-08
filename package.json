@@ -11,23 +11,23 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "dotenv": "^16.0.1",
+    "dotenv": "^16.0.3",
     "gamedig": "^4.0.5",
-    "gm": "^1.23.1",
+    "gm": "^1.25.0",
     "humanize-duration": "^3.27.3",
     "mysql": "^2.18.1",
     "ts3-nodejs-library": "^3.3.0"
   },
   "devDependencies": {
-    "@types/gamedig": "^3.0.2",
+    "@types/gamedig": "^4.0.0",
     "@types/gm": "^1.18.12",
     "@types/humanize-duration": "^3.25.1",
     "@types/mysql": "^2.15.21",
-    "@types/node": "^18.0.0",
+    "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^4.29.3",
     "@typescript-eslint/parser": "^4.29.3",
     "eslint": "^7.32.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "typescript": "^4.7.4"
+    "typescript": "^4.8.4"
   }
 }
