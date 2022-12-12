@@ -23,7 +23,7 @@
     "@types/gm": "^1.18.12",
     "@types/humanize-duration": "^3.25.1",
     "@types/mysql": "^2.15.21",
-    "@types/node": "^18.11.9",
+    "@types/node": "^18.11.13",
     "@typescript-eslint/eslint-plugin": "^4.29.3",
     "@typescript-eslint/parser": "^4.29.3",
     "eslint": "^7.32.0",
