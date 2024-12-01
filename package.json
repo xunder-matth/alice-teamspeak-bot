@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@types/gamedig": "^4.0.0",
-    "@types/gm": "^1.18.12",
+    "@types/gm": "^1.25.0",
     "@types/humanize-duration": "^3.25.1",
     "@types/mysql": "^2.15.21",
     "@types/node": "^18.11.9",
